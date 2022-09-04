@@ -1,0 +1,154 @@
+body
+{
+    margin: auto;
+    background-color: #f7b5bb;
+}
+header
+{
+    height:60px;
+    width: 100%;
+    background-color: #cb202d;
+}
+#social
+{
+    float:right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.socialLogo
+{
+    height:40px
+}
+h1{
+    font-style: italic;
+    color: white;
+    float:left;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size:35px;
+}
+#optionSelection
+{
+    height: 350px;
+    width: 15%;
+    box-shadow: 10px 10px 8px #888888;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    position:fixed;
+    background-color:#fac0a9;
+}
+#item
+{
+    width: 60%;
+    height: 800;
+    box-shadow: 10px 10px 10px #888888;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    background-color: #fac0a9;
+}
+#divcategories
+{
+    margin-top: 10%;
+    margin-left: 4%;
+    margin-right:  4%;    
+}
+span
+{
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+p
+{
+    text-align: center;
+    text-decoration: solid;
+    color: brown;
+    font-weight: bold;
+}
+#food
+{
+    margin-top: 20%;
+    margin-left: 4%;
+    margin-right: 4%; 
+}
+.item1 > img
+{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+}
+.item1
+{
+    height: 340px;
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 12%;
+    display: inline-block;
+    box-shadow: 10px 10px 8px #888888;
+    background-color: #fca1a1;
+}
+#itemdetails
+{
+    height: 120px;
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 7%;
+    border-radius: 12%;
+}
+h4
+{
+    text-align: center;
+    text-decoration: solid;
+}
+.button 
+{
+    background-color: #cb202d;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: -10px;
+    cursor: pointer; 
+    border-radius: 10%;
+}
+.search1
+{
+    height: 40px;
+    width: 40%;
+    float:center;
+    margin:10px;
+    margin-top: 2%;
+    margin-left: 28%;
+    box-shadow: 10px 10px 8px #888888;
+    background-color: #fac0a9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.search1 > input
+{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #fac0a9;
+    text-align: center;
+}
+footer
+{
+    height: 60px;
+    width: 100%;
+    border: 2px solid red;
+    background-color:cb202d;
+    color: white;
+}
